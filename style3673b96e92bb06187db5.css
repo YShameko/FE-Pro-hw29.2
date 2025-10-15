@@ -1,0 +1,53 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+pre {
+  font-size: large;
+  margin: 3px 0;
+}
+
+h1 {
+  margin: 12px 0;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8x 0;
+  font-size: 18px;
+}
+
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/app.style.css ***!
+  \*********************************************************************/
+.block {
+  padding: 6px 0;
+  text-align: center;
+}
+
+
+/*!******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/footer/footer.style.css ***!
+  \******************************************************************************************/
+.app-footer {
+    position: fixed; 
+    bottom: 0; 
+    max-width: 1400px;
+    margin: 0 auto;    
+    width: 100%;
+    font-weight: 400;
+    background-color: rgb(244, 244, 244);
+    padding: 12px 0;
+    text-align: center;
+}
